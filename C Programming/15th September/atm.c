@@ -16,9 +16,8 @@ int main(){
     c = y/100;
     
     printf("2000 Rs Notes: %d\n", a);
-    printf("500 Rs. Notes: %d\n", b);
-    printf("100 Rs. Notes: %d", c);
+    printf("500 Rs Notes: %d\n", b);
+    printf("100 Rs Notes: %d", c);
 
     return 0;
-
 }
