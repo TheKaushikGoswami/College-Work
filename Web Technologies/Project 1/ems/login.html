@@ -7,9 +7,25 @@
 </head>
 <body>
     <form action="" method="">
-        <input type="text" id="" class="" required maxlength="200" minlength="5"/>
-        <input type="button" value="Click Here" />
-        <input type="submit" name="" id="" value="Click to Submit"/>
+        Name:
+        <input type="text" name="name" id="" class="" required maxlength="200" minlength="5" placeholder="For Example: Kaushik"/><br><br>
+        Captcha Verification: <input type="button" value="Click Here" /><br><br>
+        
+        <!-- 21st September -->
+        
+        Email: <input type="email" name="email" id="" required/><br><br>
+        <input type="hidden" name="hidden" id="" value="login" />
+        Subjects:
+        <br><br>
+        <input type="checkbox" name="subjects" id="" />Mathematics
+        <input type="checkbox" name="subjects" id="" />Physics
+        <input type="checkbox" name="subjects" id="" />Chemistry
+        <input type="checkbox" name="subjects" id="" />Computer Science
+        <input type="checkbox" name="subjects" id="" />English<br><br>
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female<br><br>
+        <input type="checkbox" name="t&c" id="" required>I agree to the Terms and Conditions.<br><br>
+        <input type="submit" name="submit" id="" value="Click to Submit"/>
 
         <!-- 
             Input Attributes:
@@ -20,6 +36,10 @@
                 4. required:- checks if the input field is filled or not, shows error if not filled
                 5. maxlength:- maximum length of input field
                 6. minlength:- minimum length of input field
+                7. placeholder:- shows information (not entered already, just as a background)
+                8. value:- default value of the placeholder
+                9. disabled:- disables the input field i.e. it doesn't submit
+                10. readonly:- makes an input field read-only i.e. non-editable
          -->
     </form>
 </body>

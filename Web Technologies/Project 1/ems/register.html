@@ -11,37 +11,34 @@
 
 <body>
     <table border="1" width="400" height="200" align="center">
-        <thead>
-            <tr>
-                <th height="40">
-                    Username
-                </th>
-                <th>
-                    Password
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td align="center">
-                    <form action="" method="">
-                        <input type="text" id="username" required />
-                    </form>
-                </td>
-                <td align="center">
-                    <form action="" method="">
-                        <input type="password" id="password" required />
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <form action="" method="">
+        <form action="" method="">
+            <thead>
+                <tr>
+                    <th height="40">
+                        Username
+                    </th>
+                    <th>
+                        Password
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                            <input type="text" id="username" name="username" required />
+                        
+                    </td>
+                    <td align="center">
+                        <input type="password" id="password" name="password" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
                         <input type="submit" />
-                    </form>
-                </td>
-            </tr>
-        </tbody>
+                    </td>
+                </tr>
+            </tbody>
+        </form>
     </table>
 </body>
 
