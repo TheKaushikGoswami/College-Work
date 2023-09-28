@@ -1,0 +1,51 @@
+body{
+    background-color: orange !important;
+
+    /* Tag CSS */
+}
+
+#PageContent{
+    color: blue;
+    font-size: 20px;
+
+    /* ID CSS */
+}
+
+.PageClass{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    background-color: antiquewhite;
+
+    /* Class CSS */
+}
+
+div p{ 
+    font-size: 40px;
+
+    /* Descendant Selector in CSS */
+    /* For all <p> tags inside the <div> tag */
+}
+
+div > span{
+    font-size: 30px;
+    color: blueviolet;
+
+    /* Child Selector in CSS */
+    /* For <span> tags inside the <div> tag only but not inside any other tag */
+}
+
+div + label{
+    font-family: monospace;
+    background-color: red;
+
+    /* Adjacent Siblings Selector */
+    /* For only the first <label> tag after <div> */
+}
+
+div ~ p{
+    color: white;
+    background-color: black;
+
+    /* General Siblings Selector */
+    /* For all <p> tags after <div> */
+}

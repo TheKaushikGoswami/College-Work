@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and Applications</title>
+
+    <!-- link tab: used for linking external css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- internal css -->
+    <style>
+        body{
+            background-color: white;
+        }
+    </style>
+
+    <!--
+    
+    Priority:
+
+        1. !important property
+        2. inline CSS
+        3. internal CSS or external CSS (whichever comes latest i.e. is at bottom)
+    
+    -->
+
+</head>
+<body>
+    <h1>
+        The Body Background Color is an example of External CSS
+    </h1>
+    <h2>
+        This text is an example of Internal CSS
+    </h2>
+
+    <!-- inline CSS -->
+    <h1 style="font-family: monospace; color: red;">
+        This text is an example of Inline CSS
+    </h1>
+
+    <p id="PageContent">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore magni cum assumenda delectus alias sit voluptatem asperiores earum qui similique.
+    </p>
+
+    <p class="PageClass">
+        This is an example of Class. <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A veritatis eveniet pariatur repellendus impedit assumenda nemo iure voluptatum necessitatibus corrupti perferendis, sed nam incidunt rerum eius magnam similique omnis quisquam?
+    </p>
+    
+    <div>
+        <p>
+            This is Paragraph 1 and inside the div.
+        </p>
+        <p>
+            This is Paragraph 2 and inside the div.
+        </p>
+        <span>
+            This is a Span inside the div tag but not inside section.
+        </span>
+        <section>
+            <span>
+                This is also a Span inside the div but also inside section.
+            </span>
+        </section>
+        <br><br>
+
+        <label> It's a label which I used Adjacent Sibling Selector</label>
+    </div>
+    
+    <label> It's the next label which I didn't used CSS for</label>
+    <p>This is paragraph 3 but outside the div.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quisquam ut perspiciatis vero, accusamus adipisci ad iure eum sequi aperiam sit non quibusdam officiis odit facere ex nobis quod? Itaque.
+    </p>
+
+    <!-- 
+    
+    Selectors in CSS:
+    
+        1. Simple Selectors-
+
+            (a) Tag Name
+            (b) ID (#)
+            (c) Class (.)
+
+        2. Combinator Selectors
+
+    -->
+
+</body>
+</html>
