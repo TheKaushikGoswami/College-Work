@@ -11,6 +11,12 @@ int main() {
     int goats = (l- (2 * h)) / 2;
     int hens = h - goats;
 
+    if (goats < 0 || hens < 0 || l % 2 != 0){
+        // printf("%d hens and %d goats cannot have %d legs.\n", hens, goats, l);
+        printf("Invalid Input");
+        return 0;
+    }
+
     printf("Number of hens: %d\n", hens);
     printf("Number of goats: %d\n", goats);
 
