@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Max width & Min width</title>
+    <style>
+        img {
+            max-width: 100px;
+        }
+
+        a:link {
+            /* Default state (when the link is never clicked nor hovered) */
+
+            color: rgb(200, 90, 20);
+            font-size: 30px;
+        }
+
+        a:hover {
+            /* When the mouse is over the link */
+
+            color: rgb(20, 90, 200);
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        a:active {
+            /* When the mouse is clicked on the link but not visited yet */
+
+            color: rgb(20, 200, 90);
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a:visited {
+            /* When the link is visited */
+
+            font-size: 30px;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .changeListStyle {
+            /* List Styling */
+
+            list-style: none;
+            list-style-type: circle;
+            list-style-type: upper-roman;
+            list-style-image: url("https://www.w3schools.com/cssref/sqpurple.gif");
+        }
+
+        div {
+            /* Display */
+
+            /* display: none; The element is completely removed */
+            /* visibility: hidden; The element is invisible (but still takes up space) */
+
+            display: inline;
+            border: 2px black solid;
+            margin: 5px;
+        }
+
+        span {
+            display: block;
+            border: 2px black solid;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://images.pexels.com/photos/1289845/pexels-photo-1289845.jpeg" alt="" width="500px">
+
+    <br><br>
+
+    <a href="./19sep.html">19 September</a>
+
+    <br><br>
+
+    <h3>Ordered List</h3>
+    <ol class="changeListStyle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <div>
+        This is a div
+    </div>
+
+    <div>
+        This is another div
+    </div>
+
+    <span>
+        This is a span
+    </span>
+
+    <span>
+        This is another span
+    </span>
+
+</body>
+
+</html>
+
+<!-- storyset.com for Image -->
