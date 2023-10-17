@@ -6,7 +6,6 @@ body {
     background-color: white;
     margin: 0em;
     height: auto;
-
 }
 
 .container {
@@ -92,8 +91,8 @@ input[type="password"]{
 .sign-in-with{
     position: absolute;
     top: 50%;
-    right: 19em;
-    transform: translateY(410%);
+    right: 17.8em;
+    transform: translateY(390%);
     background-color: white;
     color: #8d8d8d;
 }

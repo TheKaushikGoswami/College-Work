@@ -1,0 +1,65 @@
+.container{
+    border: black solid 2px;
+    height: 640px;
+    display: flex; /* make the container flex */
+    justify-content: center; /* align horizontal in center */
+    justify-content: space-around; /* align horizontal by adding space around them */
+    flex-direction: column-reverse; /* align in column and reverse */
+    flex-direction: column; /* align in column */
+    flex-direction: row; /* align in row */
+    /* align-items: center; /* align vertical in center */
+}
+
+.item{
+    border: red solid 2px;
+    height: 150px;
+    width: 150px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.item1{
+    order: 3; /* order the items i.e. 3rd place */
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.item2{
+    order: 2;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.item3{
+    order: 1;
+    /* flex-grow: 1; */
+    flex-shrink: 5;
+}
+
+.item4{
+    order: 4;
+    flex-grow: 10; /* grow 10 times faster than the others */
+}
+
+@media screen and (max-width: 1000px){
+
+    /* media queries (css) for devices with max-width = 1000px */
+    
+    .item1{
+        order: 1;
+    }
+
+    .item2{
+        order: 2;
+    }
+
+    .item3{
+        order: 3;
+    }
+
+    .item4{
+        order: 4;
+    }
+}

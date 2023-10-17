@@ -1,6 +1,17 @@
-div{
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 648px;
+    background-color: #8d8d8d;
+}
 
-    border: 10px black solid;
-    margin: 150px;
-    padding: 100px;
+.item{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    background-color: aqua;
+    line-height: 180px;
 }
