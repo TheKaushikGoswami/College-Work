@@ -92,7 +92,7 @@ input[type="password"]{
     position: absolute;
     top: 50%;
     right: 17.8em;
-    transform: translateY(390%);
+    transform: translateY(405%);
     background-color: white;
     color: #8d8d8d;
 }
