@@ -8,6 +8,10 @@ int main(){
     printf("Enter a number: ");
     scanf("%d", &a);
 
+    if (a<2){
+        n = 1;
+    }
+
     for(int i=2; i<a; i++){
         if(a%i == 0){
             n = 1;
