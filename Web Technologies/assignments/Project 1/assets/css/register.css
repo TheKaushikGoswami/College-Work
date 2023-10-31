@@ -1,0 +1,125 @@
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 3em;
+}
+
+.registerCard{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    padding-top: 1em;
+    width: 30%;
+}
+
+input[type='text']{
+    width: 46%;
+    height: 2em;
+    margin-top: 2%;
+}
+
+#name{
+    margin-right: 2%;
+}
+
+input[type='email']{
+    width: 98%;
+    height: 2em;
+    margin-top: 2%;
+}
+
+input[type='password']{
+    width: 98%;
+    height: 2em;
+    margin-top: 2%;
+}
+
+.password-container{
+    position: relative;
+}
+
+.show-password{
+    position: absolute;
+    top: 55%;
+    right: 2%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(88, 155, 107);
+}
+
+label span{
+    color: rgb(88, 155, 107);
+    
+}
+
+
+.text{
+    color: #8d8d8d;
+}
+
+.sign-up-with{
+    display: flex;
+    justify-content: center;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #8d8d8d;
+}
+
+.before{
+    display: flex;
+    width: 34%;
+}
+
+.after{
+    display: flex;
+    width: 34%;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.social-media img{
+    width: 1.5rem;
+    margin: 0.5em;
+}
+
+.create-account{
+    background-color: rgb(88, 155, 107);
+    color: white;
+    border: none;
+    height: 3em;
+    width: 50%;
+    margin-left: 13.5em;
+    border-radius: 0.5em;
+}
+
+.create-account:hover{
+    cursor: pointer;
+}
+
+.login{
+    text-align: center;
+}
+
+.login a{
+    color: rgb(88, 155, 107);
+    text-decoration: none;
+}
