@@ -2,7 +2,7 @@
 
 int main(){
 
-    // C Program to print the series 1 + (1/2) + (2/3) + (3/4) + (5/6) + ... + (n-1)/n upto n terms.
+    // C Program to print the sum of series 1 + (1/2) + (2/3) + (3/4) + (5/6) + ... + (n-1)/n upto n terms.
 
     int n;
     printf("Enter the number of terms: ");
@@ -12,7 +12,6 @@ int main(){
 
     for (float i = 1; i<n; i++){
         sum+=((i)/(i+1));
-        printf("%f\n", sum);
     }
 
     printf("Sum of the series is: %.2f", sum);

@@ -2,7 +2,7 @@
 
 int main(){
 
-    // C Program to print the series 1 + (1/2) + (1/4) + (1/6) + (1/8) + ... + (1/n) upto n terms.
+    // C Program to print the sum of series 1 + (1/2) + (1/4) + (1/6) + (1/8) + ... + (1/n) upto n terms.
 
     int n;
     printf("Enter the number of terms: ");

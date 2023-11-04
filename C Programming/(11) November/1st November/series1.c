@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-    // C Program to print the series 1 + (1/2) + (1/3) + (1/4) + (1/5) + ... + (1/n) upto n terms.
+    // C Program to print the sum of series 1 + (1/2) + (1/3) + (1/4) + (1/5) + ... + (1/n) upto n terms.
 
     int n;
     printf("Enter the number of terms: ");
