@@ -48,3 +48,16 @@
 DATETIME Format: YYYY-MM-DD HH:MM:SS
 
 -->
+
+## Files to create:
+
+1. header.php
+2. footer.php
+3. config/config.php
+4. admin/dashboard.php
+5. admin/role.php
+    contains a table with field "name"
+6. admin/role_manage.php
+    fields: name
+7. admin/employee.php
+    contains a 

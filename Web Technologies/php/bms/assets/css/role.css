@@ -1,0 +1,14 @@
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0em;
+    height: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}

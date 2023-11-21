@@ -2,6 +2,7 @@
 include ('./includes/header.php');
 ?>
     <title>Login Page</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
     <div class="container">
