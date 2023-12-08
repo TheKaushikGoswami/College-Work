@@ -33,12 +33,11 @@ int main(){
     if(strcmp(str, str2) == 0){ // strcmp() is a function in C which is used to compare two strings: strcmp(string1, string2)
         printf("The strings are equal\n");
     }
-    else if(strcmp(str, str2) > 0){
+    else if(strcmp(str, str2) > 0){ // strcmp() returns 0 if the strings are equal, returns a negative value if the first string's ASCII value is less than the second string and returns a positive value if the first string's ASCII value is greater than the second string
         printf("The first string's ASCII value is greater than the second string\n");
     }
     else{
-        printf("The strings are not equal\n");
-    }
+        printf("The first string's ASCII value is less than the second string\n");
 
     return 0;
 }
