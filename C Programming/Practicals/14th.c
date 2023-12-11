@@ -1,27 +1,22 @@
 #include <stdio.h>
+#include <math.h>
 int main(){
 
-    // Input age and Salary from user and calculate the bonus, the conditions are – 
-    // Salary>=15000 bonus is 5% of salary 
-    // Salary<15000 but age>=32 bonus is 3% of salary 
-    // Salary<15000 and age<32 bonus is 2% of salary
+    // Consider the series below x+x^2/4+x^3/9+x^4/16 
+    // Input the value of x and no of terms from users and calculate the sum of series upto terms specified e.g X=3 & terms=2 the series would be 3+9/4.
 
-    int age;
-    float salary, bonus;
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    printf("Enter your salary: ");
-    scanf("%f", &salary);
+    int x, terms;
+    float sum = 0;
+    printf("Enter the value of x: ");
+    scanf("%d", &x);
+    printf("Enter the number of terms: ");
+    scanf("%d", &terms);
 
-    if(salary >= 15000){
-        bonus = salary * 0.05;
-    }else if(salary < 15000 && age >= 32){
-        bonus = salary * 0.03;
-    }else if(salary < 15000 && age < 32){
-        bonus = salary * 0.02;
+    for(int i = 1; i <= terms; i++){
+        sum += (float)pow(x, i) / (float)pow(i, 2);
     }
 
-    printf("Your bonus is %.2f", bonus);
+    printf("The sum of the series is %f", sum);
 
     return 0;
 }

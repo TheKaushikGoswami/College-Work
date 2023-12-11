@@ -1,69 +1,33 @@
 #include <stdio.h>
 int main(){
 
-    // C Program to print different pattern with input from the user:
+    // C Program to to find maximum frequency element in a given sequence(array).
 
-    /*
-
-    Pattern 1:
-
-    *
-    **
-    ***
-    ****
-    *****
-    
-    Pattern 2:
-
-         *
-        ***
-       *****
-      *******
-     *********
-    
-    Pattern 3:
-
-        *
-       **
-      ***
-     ****
-    *****
-    
-    */
-
-    int n;
-    printf("Enter number of rows: ");
+    int arr[100], n, c;
+    printf("Enter size of array: ");
     scanf("%d", &n);
 
-    printf("\nPattern 1:\n\n");
-    for(int i = 1; i <= n; i++){
-        for(int j = 1; j <= i; j++){
-            printf("*");
-        }
-        printf("\n");
+    for (int i = 0; i < n; i++) {
+        printf("Enter value of element %d: ", i + 1);
+        scanf("%d", &arr[i]);
     }
 
-    printf("\nPattern 2:\n\n");
-    for(int i = 1; i <= n; i++){
-        for(int j = 1; j <= n - i; j++){
-            printf(" ");
+    int max = 0, el = 0;
+
+    for (int i = 0; i < n; i++) {
+        c = 0;
+        for (int j = 0; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                c++;
+            }
         }
-        for(int j = 1; j <= 2 * i - 1; j++){
-            printf("*");
+        if (c > max) {
+            max = c;
+            el = arr[i];
         }
-        printf("\n");
     }
 
-    printf("\nPattern 3:\n\n");
-    for(int i = 1; i <= n; i++){
-        for(int j = 1; j <= n - i; j++){
-            printf(" ");
-        }
-        for(int j = 1; j <= i; j++){
-            printf("*");
-        }
-        printf("\n");
-    }
+    printf("The maximum frequency element is %d", el);
 
     return 0;
 }
