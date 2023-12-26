@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 int main(){
 
     // C Program to find the largest and second largest element in an array.
@@ -12,7 +13,11 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
-    int max = 0, max2 = 0;
+    // int max = arr[0], max2 = arr[0];
+
+    // int max = 0, max2 = 0;
+
+    int max = INT_MIN, max2 = INT_MIN;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] > max) {

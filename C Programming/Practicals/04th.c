@@ -46,7 +46,6 @@ int main(){
             break;
         default:
             printf("Invalid month number.\n");
-            break;
     }
 
     return 0;
