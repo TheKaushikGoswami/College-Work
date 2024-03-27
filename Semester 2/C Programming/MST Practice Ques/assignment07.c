@@ -1,6 +1,6 @@
-//Find the sum of n numbers using recursive function.
-
 #include<stdio.h>
+
+//Find the sum of n numbers using recursive function.
 
 int sum(int n){
 	if(n > 0){

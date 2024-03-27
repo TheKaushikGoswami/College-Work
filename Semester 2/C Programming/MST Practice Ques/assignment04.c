@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<ctype.h>
+
+// Write a program in C to count the number of vowels and consonants in a string using a pointer.
 void countVowelsConsonants(char *str, int *vowelCount, int *consonantCount ){
 	while(*str!='\0'){
-		char ch = tolower(*str);
-		if(ch>='a' && ch<='z'){
-			if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+		if(((*str)>='a' && (*str)<='z') || ((*str)>='A' && (*str)<='Z')){
+			if((*str) == 'a' || (*str) == 'e' || (*str) == 'i' || (*str) == 'o' || (*str) == 'u' || (*str) == 'A' || (*str) == 'E' || (*str) == 'I' || (*str) == 'O' || (*str) == 'U'){
 				(*vowelCount)++;
 			}
 			else{

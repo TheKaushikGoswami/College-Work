@@ -1,6 +1,7 @@
-//Find the nth term of Fibonacci series using recursive function. 
 
 #include<stdio.h>
+
+// Find the nth term of Fibonacci series using recursive function. 
 
 int fibonacci(int n){
 	if(n == 0){
@@ -16,7 +17,7 @@ int fibonacci(int n){
 
 int main(){
 	int n;
-	printf("Enter number :");
+	printf("Enter the term for which you want to get the value: ");
 	scanf("%d", &n);
 	int fib = fibonacci(n);
 	printf("%d", fib);
