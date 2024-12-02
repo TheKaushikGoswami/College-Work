@@ -1,0 +1,1 @@
+// Memory Variable Partition

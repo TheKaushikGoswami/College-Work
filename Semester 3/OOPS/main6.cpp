@@ -5,27 +5,19 @@ class A{
     public:
         void display(){
             cout << "Class A" << endl;
+
         }
 };
 
-class B{
+class B : public A{
     public:
-        void display2(){
+        void display(){
             cout << "Class B" << endl;
         }
 };
 
-class C : public B{
-
-};
-
-class E : public A, public C{
-
-};
-
 int main(){
-    E obj3;
-    obj3.display();
-    obj3.display2();
+    B ob;
+    ob.display();
     return 0;
 }

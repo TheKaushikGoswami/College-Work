@@ -101,32 +101,32 @@ int main(){
     // s1.getMarks();
 
     Student s1;
-
-    s1.getRoll();
-    s1.getName();
-    s1.getMarks();
-
-    Student s2("Test 2", 20, 100);
-
-    s2.getRoll();
-    s2.getName();
-    s2.getMarks();
-
-    Student s3("Test 3");
-
-    s3.getName();
-    // s3.getRoll();
-    // s3.getMarks();
-
-    Student s4("Test 4", 120);
-    
-    s4.getRoll();
-    s4.getName();
-
     Student s5(s1);
     s5.getRoll();
     s5.getName();
     s5.getMarks();
+
+    // s1.getRoll();
+    // s1.getName();
+    // s1.getMarks();
+
+    // Student s2("Test 2", 20, 100);
+
+    // s2.getRoll();
+    // s2.getName();
+    // s2.getMarks();
+
+    // Student s3("Test 3");
+
+    // s3.getName();
+    // // s3.getRoll();
+    // // s3.getMarks();
+
+    // Student s4("Test 4", 120);
+    
+    // s4.getRoll();
+    // s4.getName();
+
 
     return 0;
 }
