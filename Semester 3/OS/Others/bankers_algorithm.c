@@ -75,7 +75,7 @@ int main(){
     } else {
         printf("The system is in unsafe state\n");
     
+    }
 
     return 0;
-}
 }
