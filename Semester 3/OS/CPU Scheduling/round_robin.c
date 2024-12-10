@@ -41,10 +41,10 @@ int main(){
         tat[i] = bt[i] + wt[i];
     }
 
-    printf("\nProcess\t\tBurst Time\tWaiting Time\tTurnaround Time\n");
+    printf("\nProcess\t\tBurst Time\tWaiting Time\n");
 
     for(i=0; i<n; i++){
-        printf("P[%d]\t\t%d\t\t%d\t\t%d\n", i+1, bt[i], wt[i], tat[i]);
+        printf("P[%d]\t\t%d\t\t%d\n", i+1, bt[i], wt[i]);
     }
 
     return 0;

@@ -8,17 +8,18 @@ int main(){
     printf("Enter the no. of elements: ");
     scanf("%d", &n);
 
+    int sequence[n];
+    printf("Enter the elements of the sequence:\n");
+    for(int i=0; i<n; i++){
+        scanf("%d", &sequence[i]);
+    }
+    1
     printf("Enter the current position of the disk head: ");
     scanf("%d", &currentPosition);
 
     printf("Enter the upper limit of the disk: ");
     scanf("%d", &upperLimit);
 
-    int sequence[n];
-    printf("Enter the elements of the sequence:\n");
-    for(int i=0; i<n; i++){
-        scanf("%d", &sequence[i]);
-    }
 
     for(int i=0; i<n-1; i++){
         for(int j=0; j<n-i-1; j++){
