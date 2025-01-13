@@ -1,0 +1,1651 @@
+[06-Mar-2024 21:28:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pools.php:101
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 101
+[06-Mar-2024 21:28:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pools.php:101
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 101
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:29:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:58 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:58 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:29:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:29:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[06-Mar-2024 21:30:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[06-Mar-2024 21:31:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pools.php:101
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 101
+[07-Mar-2024 09:21:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pools.php:101
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 101
+[07-Mar-2024 09:23:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pools.php:101
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 101
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:16 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:17 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:17 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:33 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:36 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:27:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:27:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:29:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:29 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:29 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:30:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 09:31:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 09:39:44 Asia/Kolkata] PHP Warning:  Undefined variable $quiz_name in /home/codeufcw/qms/admin/quiz_details.php on line 84
+[07-Mar-2024 09:39:44 Asia/Kolkata] PHP Warning:  Undefined variable $quiz_name in /home/codeufcw/qms/admin/quiz_details.php on line 98
+[07-Mar-2024 09:39:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect table name '' in /home/codeufcw/qms/admin/quiz_details.php:99
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_details.php(99): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_details.php on line 99
+[07-Mar-2024 10:23:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:23 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:23 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:37 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:43 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:23:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 10:23:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 10:23:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 10:42:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.OS_Development' doesn't exist in /home/codeufcw/qms/admin/pool_details.php:19
+Stack trace:
+#0 /home/codeufcw/qms/admin/pool_details.php(19): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pool_details.php on line 19
+[07-Mar-2024 10:52:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.humanshu' doesn't exist in /home/codeufcw/qms/admin/pools.php:102
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(102): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 102
+[07-Mar-2024 10:52:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.humanshu' doesn't exist in /home/codeufcw/qms/admin/pools.php:102
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(102): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 102
+[07-Mar-2024 10:52:50 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.humanshu' doesn't exist in /home/codeufcw/qms/admin/pools.php:102
+Stack trace:
+#0 /home/codeufcw/qms/admin/pools.php(102): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/pools.php on line 102
+[07-Mar-2024 11:37:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:28 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:29 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:29 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:36 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 11:37:37 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 11:39:08 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'test_new_quiz' already exists in /home/codeufcw/qms/admin/quiz.php:45
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(45): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 45
+[07-Mar-2024 11:40:17 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'test_new_quiz' already exists in /home/codeufcw/qms/admin/quiz.php:45
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(45): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 45
+[07-Mar-2024 11:48:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'test_7th_march' already exists in /home/codeufcw/qms/admin/quiz.php:45
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(45): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 45
+[07-Mar-2024 12:15:43 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in /home/codeufcw/qms/admin/quiz.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 21
+[07-Mar-2024 12:16:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function str() in /home/codeufcw/qms/admin/quiz.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 21
+[07-Mar-2024 12:17:02 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "str" in /home/codeufcw/qms/admin/quiz.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 21
+[07-Mar-2024 12:17:27 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in /home/codeufcw/qms/admin/quiz.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 21
+[07-Mar-2024 12:20:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'another_demo' already exists in /home/codeufcw/qms/admin/quiz.php:45
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(45): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 45
+[07-Mar-2024 12:20:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'humanshu' already exists in /home/codeufcw/qms/admin/quiz.php:45
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(45): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 45
+[07-Mar-2024 12:21:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.humanshu' doesn't exist in /home/codeufcw/qms/admin/quiz_details.php:100
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_details.php(100): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_details.php on line 100
+[07-Mar-2024 14:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_details.php on line 155
+[07-Mar-2024 14:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_details.php on line 156
+[07-Mar-2024 14:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_details.php on line 157
+[07-Mar-2024 14:04:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_details.php on line 158
+[07-Mar-2024 14:50:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:58 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:58 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:50:59 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:03 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.New_Quiz' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:51:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:56:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:56:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'codeufcw_qms_db.PROFILING' doesn't exist in /home/codeufcw/qms/admin/fetch_data.php:31
+Stack trace:
+#0 /home/codeufcw/qms/admin/fetch_data.php(31): mysqli->prepare()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_data.php on line 31
+[07-Mar-2024 14:57:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:57:28 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:01 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:08 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:08 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 14:58:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 14:58:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:10:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:10:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:10:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:10:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:10:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:10:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:45:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:45:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:45:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:45:30 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[07-Mar-2024 15:45:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[07-Mar-2024 15:45:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:34 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:35 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:36 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 08:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 08:37:37 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 09:19:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 09:19:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:04:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'redir' already exists in /home/codeufcw/qms/admin/quiz.php:42
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz.php(42): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz.php on line 42
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:07:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:07:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:55 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:08:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:22 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:45 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:46 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 10:41:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 11:01:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 11:01:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 11:01:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 11:01:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[08-Mar-2024 11:01:50 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[08-Mar-2024 11:01:50 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:19 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:20:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[12-Mar-2024 16:21:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[12-Mar-2024 13:23:05 UTC] PHP Warning:  Undefined variable $conn in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/codeufcw/qms/admin/fetch_pools.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:23:13 UTC] PHP Warning:  Undefined variable $conn in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/codeufcw/qms/admin/fetch_pools.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:24:31 UTC] PHP Warning:  Undefined variable $conn in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:24:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/codeufcw/qms/admin/fetch_pools.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:24:58 UTC] PHP Warning:  Undefined variable $conn in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:24:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/codeufcw/qms/admin/fetch_pools.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:25:46 UTC] PHP Warning:  Undefined variable $conn in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 13:25:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/codeufcw/qms/admin/fetch_pools.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codeufcw/qms/admin/fetch_pools.php on line 8
+[12-Mar-2024 19:23:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Select Pool Here(question, option1, option2, option3, option4, answer) VALUES...' at line 1 in /home/codeufcw/qms/admin/upload_questions.php:36
+Stack trace:
+#0 /home/codeufcw/qms/admin/upload_questions.php(36): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/upload_questions.php on line 36
+[14-Mar-2024 19:22:37 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: array_pop(): Argument #1 ($array) must be of type array, null given in /home/codeufcw/qms/admin/quiz_edit.php:26
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_edit.php(26): array_pop()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_edit.php on line 26
+[14-Mar-2024 19:58:47 Asia/Kolkata] PHP Warning:  Undefined variable $quiz_table in /home/codeufcw/qms/admin/quiz_edit.php on line 161
+[14-Mar-2024 19:58:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect table name '' in /home/codeufcw/qms/admin/quiz_edit.php:162
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_edit.php(162): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_edit.php on line 162
+[14-Mar-2024 20:01:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'this quiz has the most of the brilliant students', `time` = '30', `start` = '...' at line 1 in /home/codeufcw/qms/admin/quiz_edit.php:159
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_edit.php(159): mysqli->query()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_edit.php on line 159
+[21-Mar-2024 15:25:41 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:26:09 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:26:13 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:26:23 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:26:25 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:29:21 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:32:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[21-Mar-2024 15:32:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[21-Mar-2024 15:32:51 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/codeufcw/qms/admin/config/config.php on line 10
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:52 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[21-Mar-2024 15:32:53 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:53 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[21-Mar-2024 15:32:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 13
+[21-Mar-2024 15:32:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/fetch_data.php on line 14
+[26-Mar-2024 15:24:43 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: array_pop(): Argument #1 ($array) must be of type array, null given in /home/codeufcw/qms/admin/quiz_details.php:23
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_details.php(23): array_pop()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_details.php on line 23
+[26-Mar-2024 15:25:13 Asia/Kolkata] PHP Warning:  Attempt to read property "num_rows" on bool in /home/codeufcw/qms/admin/quiz_details.php on line 104
+[26-Mar-2024 15:25:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: array_pop(): Argument #1 ($array) must be of type array, null given in /home/codeufcw/qms/admin/quiz_details.php:23
+Stack trace:
+#0 /home/codeufcw/qms/admin/quiz_details.php(23): array_pop()
+#1 {main}
+  thrown in /home/codeufcw/qms/admin/quiz_details.php on line 23
+[26-Mar-2024 15:25:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 120
+[26-Mar-2024 15:25:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 121
+[26-Mar-2024 15:25:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 122
+[26-Mar-2024 15:25:44 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 123
+[26-Mar-2024 15:26:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 120
+[26-Mar-2024 15:26:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 121
+[26-Mar-2024 15:26:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 122
+[26-Mar-2024 15:26:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 123
+[26-Mar-2024 15:28:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 120
+[26-Mar-2024 15:28:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 121
+[26-Mar-2024 15:28:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 122
+[26-Mar-2024 15:28:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/codeufcw/qms/admin/quiz_edit.php on line 123

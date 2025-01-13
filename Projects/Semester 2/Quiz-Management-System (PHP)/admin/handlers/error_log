@@ -1,0 +1,90 @@
+[07-Mar-2024 09:37:30 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/../../.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:48:03 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Dotenv\Dotenv::__construct(), 0 passed in /home/codeufcw/qms/admin/handlers/register_handler.php on line 9 and exactly 4 expected in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php:60
+Stack trace:
+#0 /home/codeufcw/qms/admin/handlers/register_handler.php(9): Dotenv\Dotenv->__construct()
+#1 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php on line 60
+[07-Mar-2024 09:48:53 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Dotenv\Dotenv::__construct(): Argument #1 ($store) must be of type Dotenv\Store\StoreInterface, string given, called in /home/codeufcw/qms/admin/handlers/register_handler.php on line 9 and defined in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php:60
+Stack trace:
+#0 /home/codeufcw/qms/admin/handlers/register_handler.php(9): Dotenv\Dotenv->__construct()
+#1 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php on line 60
+[07-Mar-2024 09:50:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Dotenv\Dotenv::__construct(): Argument #1 ($store) must be of type Dotenv\Store\StoreInterface, string given, called in /home/codeufcw/qms/admin/handlers/register_handler.php on line 10 and defined in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php:60
+Stack trace:
+#0 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->__construct()
+#1 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php on line 60
+[07-Mar-2024 09:51:12 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:51:52 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers./../../../.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:52:22 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:52:36 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:52:55 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:53:08 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:57:01 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:58:45 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/../../.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:58:58 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/../.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 09:59:30 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[07-Mar-2024 04:42:54 UTC] PHP Parse error:  syntax error, unexpected identifier "ini_set" in /home/codeufcw/qms/admin/config/config.php on line 6
+[07-Mar-2024 04:42:58 UTC] PHP Parse error:  syntax error, unexpected identifier "ini_set" in /home/codeufcw/qms/admin/config/config.php on line 6
+[07-Mar-2024 04:43:22 UTC] PHP Parse error:  syntax error, unexpected identifier "ini_set" in /home/codeufcw/qms/admin/config/config.php on line 6
+[07-Mar-2024 10:15:37 Asia/Kolkata] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/codeufcw/qms/admin/handlers/.env]. in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/codeufcw/qms/admin/handlers/register_handler.php(10): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/codeufcw/qms/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
