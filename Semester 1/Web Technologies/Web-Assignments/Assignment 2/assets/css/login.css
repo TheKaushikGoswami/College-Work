@@ -1,0 +1,139 @@
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0em;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0em;
+    display: flex;
+
+}
+
+.left-container {
+    width: 50%;
+    display: inline;
+}
+
+img {
+    width: 100%;
+    margin: 0px;
+}
+
+.right-container {
+    background-color: #f2f2f2;
+    padding: 0 5vw;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.loginCard {
+    width: 25em;
+    height: 25em;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.head{
+    margin-left:20px;
+}
+
+input[type="email"]{
+    width: 22rem;
+    height: 1.6rem;
+}
+
+input[type="password"]{
+    width: 22rem;
+    height: 1.6rem;
+}
+
+#forgotpassword{
+    margin-left: 4em;
+}
+
+.password-container {
+    position: relative;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 1.7em;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(88, 155, 107);
+}
+
+.sign-in{
+    width: 26.9em;
+    height: 2rem;
+    background-color: rgb(88, 155, 107);
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    margin-top: 0.5em;
+}
+
+.sign-in-with{
+    position: absolute;
+    top: 50%;
+    right: 17.8em;
+    transform: translateY(405%);
+    background-color: white;
+    color: #8d8d8d;
+}
+
+hr{
+    margin-right: 1.3rem;
+}
+
+.social-media img{
+    width: 1.5rem;
+}
+
+.linkedin{
+    margin-left: 7em;
+}
+
+.twitter{
+    margin-left: 0.5em;
+}
+
+.facebook{
+    margin-left: 0.5em;
+}
+
+.instagram{
+    margin-left: 0.5em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(88, 155, 107);
+}
+
+.text{
+    color: #8d8d8d;
+}
+
+#remember_pass{
+    color: #8d8d8d;
+}
+
+#remember_pass:hover{
+    color: rgb(88, 155, 107);
+}
+
+/* Write media queries targetting mobile phones and tablets */
+
