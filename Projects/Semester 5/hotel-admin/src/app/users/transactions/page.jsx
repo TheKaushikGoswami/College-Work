@@ -7,18 +7,17 @@ import { Button } from '@/components/ui/button';
 import { supabase } from '../../../lib/supabaseClient';
 import Link from "next/link";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import toast from "react-hot-toast";
 
 export default function TransactionsPage() {
   const [mobile, setMobile] = useState("");
   const [transactions, setTransactions] = useState([]);
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
 
   const handleSearch = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setError(null);
     setTransactions([]);
     setUser(null);
 
@@ -26,12 +25,12 @@ export default function TransactionsPage() {
       // Find user by mobile number
       const { data: users, error: userError } = await supabase
         .from("users")
-        .select("id, full_name, mobile_number, membership_type")
+        .select("id, full_name, mobile_number, membership_type, anniversary_date")
         .eq("mobile_number", mobile);
 
       if (userError) throw userError;
       if (!users || users.length === 0) {
-        setError("No user found with this mobile number.");
+        toast.error("No user found with this mobile number.");
         setLoading(false);
         return;
       }
@@ -54,7 +53,7 @@ export default function TransactionsPage() {
 
       setTransactions(normalizedTxs);
     } catch (err) {
-      setError(err.message || "Something went wrong");
+      toast.error(err.message || "Something went wrong");
     } finally {
       setLoading(false);
     }
@@ -63,7 +62,7 @@ export default function TransactionsPage() {
   return (
     <ProtectedRoute>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-4 md:p-8">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <Link href="/" className="text-sm text-gray-600 hover:text-gray-900 mb-4 inline-flex items-center">
             ← Back to Dashboard
           </Link>
@@ -90,7 +89,6 @@ export default function TransactionsPage() {
                   {loading ? "Searching..." : "Search"}
                 </Button>
               </form>
-              {error && <div className="text-red-500 mt-2">{error}</div>}
             </CardContent>
           </Card>
 
@@ -103,6 +101,18 @@ export default function TransactionsPage() {
                   <span className="font-semibold">{user.full_name}</span> ({user.membership_type})
                   <br />
                   Mobile: {user.mobile_number}
+                  {user.anniversary_date && (
+                    <>
+                      <br />
+                      Anniversary: {(() => {
+                          // user.anniversary_date is in MM-DD format
+                          const [month, day] = user.anniversary_date.split("-");
+                          const date = new Date(2000, Number(month) - 1, Number(day));
+                          const options = { day: '2-digit', month: 'long' };
+                          return date.toLocaleDateString('en-IN', options);
+                        })()}
+                    </>
+                  )}
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -127,13 +137,30 @@ export default function TransactionsPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {transactions.map((tx, i) => (
-                        <tr key={tx.id || i} className="even:bg-gray-50">
-                          {Object.values(tx).map((val, j) => (
-                            <td key={j} className="px-3 py-2 border-b">
-                              {String(val)}
-                            </td>
-                          ))}
+                      {transactions.map((tx) => (
+                        <tr key={tx.id} className="even:bg-gray-50">
+                          {Object.keys(tx).map((key) => {
+                            const value = tx[key];
+                            let displayValue = String(value ?? "");
+
+                            if (key === 'created_at' && value) {
+                              displayValue = new Date(value).toLocaleString('en-IN', {
+                                timeZone: 'Asia/Kolkata',
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric',
+                                hour: 'numeric',
+                                minute: '2-digit',
+                                hour12: true,
+                              });
+                            }
+                            
+                            return (
+                              <td key={key} className="px-3 py-2 border-b">
+                                {displayValue}
+                              </td>
+                            );
+                          })}
                         </tr>
                       ))}
                     </tbody>
@@ -144,7 +171,7 @@ export default function TransactionsPage() {
           )}
 
           {/* No transactions */}
-          {user && transactions.length === 0 && !loading && !error && (
+          {user && transactions.length === 0 && !loading && (
             <div className="text-gray-500 text-center">
               No transactions found for this user.
             </div>

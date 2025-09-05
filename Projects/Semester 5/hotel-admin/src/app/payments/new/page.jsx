@@ -15,6 +15,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { supabase } from "../../../lib/supabaseClient";
 import { membershipDiscounts } from "../../../lib/discountConfig";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import toast from "react-hot-toast";
 
 
 export default function NewPaymentPage() {
@@ -24,9 +25,9 @@ export default function NewPaymentPage() {
   const [searchPhone, setSearchPhone] = useState("");
   const [searchName, setSearchName] = useState("");
   const [loading, setLoading] = useState(false);
-  const [success, setSuccess] = useState(null);
-  const [error, setError] = useState(null);
   const [searchBy, setSearchBy] = useState("name"); // "name" or "phone"
+  const [isExpired, setIsExpired] = useState(false);
+  const [cardNumber, setCardNumber] = useState("");
 
   const {
     register,
@@ -49,22 +50,20 @@ export default function NewPaymentPage() {
 
   const totalAmount = watch("total_amount");
   const discountPercent = watch("discount_percent");
+  const modeOfPayment = watch("mode_of_payment");
 
-  // Fetch users from Supabase (simulated)
+  // Fetch users from Supabase
   useEffect(() => {
     async function fetchUsers() {
       try {
         const { data, error } = await supabase
           .from("users")
-          .select("id, full_name, membership_type, mobile_number");
-        if (!error) setUsers(data);
-
-        // Simulated data
-        setUsers(data);
-        console.log("Fetched users:", data);
-        setFilteredUsers(data);
+          .select("id, full_name, membership_type, mobile_number, valid_to");
+        if (error) throw new Error("Failed to load users");
+        setUsers(data || []);
+        setFilteredUsers(data || []);
       } catch (err) {
-        setError("Failed to load users");
+        toast.error(err.message);
       }
     }
     fetchUsers();
@@ -104,8 +103,18 @@ export default function NewPaymentPage() {
     setValue("user_id", userId);
     const user = users.find((u) => u.id === userId);
     setSelectedUser(user);
+    setIsExpired(false);
 
     if (user) {
+      if (user.valid_to) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0); // Set time to the beginning of the day for comparison
+        const validToDate = new Date(user.valid_to);
+        if (validToDate < today) {
+          setIsExpired(true);
+        }
+      }
+
       const defaultDiscount = membershipDiscounts[user.membership_type] || 0;
       setValue("discount_percent", defaultDiscount);
     }
@@ -127,8 +136,7 @@ export default function NewPaymentPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    setError(null);
-    setSuccess(null);
+    const toastId = toast.loading('Processing payment...');
 
     try {
       // get currently logged-in admin
@@ -140,26 +148,42 @@ export default function NewPaymentPage() {
       if (userError) throw userError;
       if (!user) throw new Error("No logged in admin found");
 
-      const { error } = await supabase.from("payments").insert([
-        {
-          user_id: data.user_id,
-          mode_of_payment: data.mode_of_payment,
-          total_amount: data.total_amount,
-          discount_percent: data.discount_percent,
-          discount_price: data.discount_price,
-          to_be_paid: data.to_be_paid,
-          receipt_no: data.receipt_no,
-          created_by: user.email, // ✅ auto-fill with admin email
-        },
-      ]);
+      const paymentData = {
+        user_id: data.user_id,
+        mode_of_payment: data.mode_of_payment,
+        total_amount: data.total_amount,
+        discount_percent: data.discount_percent,
+        discount_price: data.discount_price,
+        to_be_paid: data.to_be_paid,
+        receipt_no: data.receipt_no,
+        created_by: user.email, // ✅ auto-fill with admin email
+      };
+
+      if (
+        (data.mode_of_payment === "Credit Card" || data.mode_of_payment === "Debit Card") &&
+        cardNumber
+      ) {
+        paymentData.card_number = cardNumber;
+      }
+
+      const { error } = await supabase.from("payments").insert([paymentData]);
 
       if (error) throw error;
 
-      setSuccess("✅ Payment recorded successfully!");
+      toast.success("Payment recorded successfully!", { id: toastId });
       reset();
+      setCardNumber("");
       setSelectedUser(null);
     } catch (err) {
-      setError(err.message || "Something went wrong");
+      if (err.message && err.message.includes('payments_receipt_no_key')) {
+        toast.error("A payment with this receipt number already exists.", { id: toastId });
+      } 
+      else if (err.message && err.message.includes('users_email_key')) {
+        toast.error("A user with this email already exists.", { id: toastId });
+      }
+      else {
+        toast.error(err.message || "Something went wrong", { id: toastId });
+      }
     } finally {
       setLoading(false);
     }
@@ -170,6 +194,14 @@ export default function NewPaymentPage() {
     setSearchPhone("");
     setSearchName("");
     setFilteredUsers(users);
+  };
+
+  const handleCardNumberChange = (e) => {
+    const input = e.target.value.replace(/\s/g, "");
+    if (/^\d*$/.test(input) && input.length <= 16) {
+      const formatted = input.match(/.{1,4}/g)?.join(" ") || "";
+      setCardNumber(formatted);
+    }
   };
 
   return (
@@ -281,6 +313,9 @@ export default function NewPaymentPage() {
                     <Badge className={`${getMembershipColor(selectedUser.membership_type)} mt-2`}>
                       {selectedUser.membership_type} - {membershipDiscounts[selectedUser.membership_type]}% discount
                     </Badge>
+                    {isExpired && (
+                      <p className="text-red-600 font-semibold mt-2 text-sm">Membership Expired</p>
+                    )}
                   </div>
                 )}
               </CardContent>
@@ -297,168 +332,173 @@ export default function NewPaymentPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="space-y-8">
+                <form onSubmit={handleSubmit(onSubmit)}>
+                  <fieldset className="space-y-8" disabled={!selectedUser || isExpired}>
 
-                  {!selectedUser && (
-                    <Alert className="border-yellow-200 bg-yellow-50">
-                      <AlertDescription className="text-yellow-800">
-                        ⚠️ Please select a customer first to proceed with payment
-                      </AlertDescription>
-                    </Alert>
-                  )}
+                    {!selectedUser && (
+                      <Alert className="border-yellow-200 bg-yellow-50">
+                        <AlertDescription className="text-yellow-800">
+                          ⚠️ Please select a customer first to proceed with payment
+                        </AlertDescription>
+                      </Alert>
+                    )}
+                    {isExpired && (
+                      <Alert className="border-red-200 bg-red-50">
+                        <AlertDescription className="text-red-800">
+                          This user's membership has expired. Please renew the membership to make a payment.
+                        </AlertDescription>
+                      </Alert>
+                    )}
 
-                  {/* Payment Method */}
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                      💳 Payment Method
-                    </h3>
-                    <div className="space-y-2">
-                      <Label htmlFor="payment-method">Mode of Payment</Label>
-                      <Select
-                        onValueChange={(value) => setValue("mode_of_payment", value)}
-                        defaultValue="Cash"
-                      >
-                        <SelectTrigger>
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="Cash">💵 Cash</SelectItem>
-                          <SelectItem value="Credit Card">💳 Credit Card</SelectItem>
-                          <SelectItem value="Debit Card">💳 Debit Card</SelectItem>
-                          <SelectItem value="UPI">📱 UPI</SelectItem>
-                          <SelectItem value="Cheque">📝 Cheque</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-
-                  <Separator />
-
-                  {/* Amount Details */}
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                      💰 Amount Details
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Payment Method */}
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                        💳 Payment Method
+                      </h3>
                       <div className="space-y-2">
-                        <Label htmlFor="total-amount">Total Amount *</Label>
+                        <Label htmlFor="payment-method">Mode of Payment</Label>
+                        <Select
+                          onValueChange={(value) => setValue("mode_of_payment", value)}
+                          defaultValue="Cash"
+                        >
+                          <SelectTrigger>
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="Cash">💵 Cash</SelectItem>
+                            <SelectItem value="Credit Card">💳 Credit Card</SelectItem>
+                            <SelectItem value="Debit Card">💳 Debit Card</SelectItem>
+                            <SelectItem value="UPI">📱 UPI</SelectItem>
+                            <SelectItem value="Cheque">📝 Cheque</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                      {(modeOfPayment === "Credit Card" || modeOfPayment === "Debit Card") && (
+                        <div className="space-y-2 mt-4">
+                          <Label htmlFor="card-number">Card Number</Label>
+                          <Input
+                            id="card-number"
+                            placeholder="XXXX XXXX XXXX XXXX"
+                            value={cardNumber}
+                            onChange={handleCardNumberChange}
+                          />
+                        </div>
+                      )}
+                    </div>
+
+                    <Separator />
+
+                    {/* Amount Details */}
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                        💰 Amount Details
+                      </h3>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="total-amount">Total Amount *</Label>
+                          <Input
+                            id="total-amount"
+                            type="number"
+                            step="0.01"
+                            placeholder="0.00"
+                            {...register("total_amount", { required: "Total amount is required" })}
+                            className={errors.total_amount ? "border-red-500" : ""}
+                          />
+                          {errors.total_amount && (
+                            <p className="text-sm text-red-500">{errors.total_amount.message}</p>
+                          )}
+                        </div>
+
+                        <div className="space-y-2">
+                          <Label htmlFor="discount-percent">Discount Percent (%)</Label>
+                          <Input
+                            id="discount-percent"
+                            type="number"
+                            step="0.01"
+                            placeholder="0"
+                            {...register("discount_percent")}
+                          />
+                        </div>
+
+                        <div className="space-y-2">
+                          <Label htmlFor="discount-price">Discount Amount</Label>
+                          <Input
+                            id="discount-price"
+                            type="number"
+                            step="0.01"
+                            {...register("discount_price")}
+                            readOnly
+                            className="bg-gray-50"
+                          />
+                        </div>
+
+                        <div className="space-y-2">
+                          <Label htmlFor="to-be-paid">Final Amount</Label>
+                          <Input
+                            id="to-be-paid"
+                            type="number"
+                            step="0.01"
+                            {...register("to_be_paid")}
+                            readOnly
+                            className="bg-green-50 border-green-200 font-semibold"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Receipt Details */}
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                        🧾 Receipt Details
+                      </h3>
+                      <div className="space-y-2">
+                        <Label htmlFor="receipt-no">Receipt Number *</Label>
                         <Input
-                          id="total-amount"
-                          type="number"
-                          step="0.01"
-                          placeholder="0.00"
-                          {...register("total_amount", { required: "Total amount is required" })}
-                          className={errors.total_amount ? "border-red-500" : ""}
+                          id="receipt-no"
+                          placeholder="Enter receipt number"
+                          {...register("receipt_no", { required: "Receipt number is required" })}
+                          className={errors.receipt_no ? "border-red-500" : ""}
                         />
-                        {errors.total_amount && (
-                          <p className="text-sm text-red-500">{errors.total_amount.message}</p>
+                        {errors.receipt_no && (
+                          <p className="text-sm text-red-500">{errors.receipt_no.message}</p>
                         )}
                       </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="discount-percent">Discount Percent (%)</Label>
-                        <Input
-                          id="discount-percent"
-                          type="number"
-                          step="0.01"
-                          placeholder="0"
-                          {...register("discount_percent")}
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="discount-price">Discount Amount</Label>
-                        <Input
-                          id="discount-price"
-                          type="number"
-                          step="0.01"
-                          {...register("discount_price")}
-                          readOnly
-                          className="bg-gray-50"
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="to-be-paid">Final Amount</Label>
-                        <Input
-                          id="to-be-paid"
-                          type="number"
-                          step="0.01"
-                          {...register("to_be_paid")}
-                          readOnly
-                          className="bg-green-50 border-green-200 font-semibold"
-                        />
-                      </div>
                     </div>
-                  </div>
 
-                  <Separator />
-
-                  {/* Receipt Details */}
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                      🧾 Receipt Details
-                    </h3>
-                    <div className="space-y-2">
-                      <Label htmlFor="receipt-no">Receipt Number *</Label>
-                      <Input
-                        id="receipt-no"
-                        placeholder="Enter receipt number"
-                        {...register("receipt_no", { required: "Receipt number is required" })}
-                        className={errors.receipt_no ? "border-red-500" : ""}
-                      />
-                      {errors.receipt_no && (
-                        <p className="text-sm text-red-500">{errors.receipt_no.message}</p>
-                      )}
+                    {/* Submit Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                      <Button
+                        type="submit"
+                        disabled={loading || !selectedUser || isExpired}
+                        className="flex-1 bg-green-600 hover:bg-green-700"
+                      >
+                        {loading ? (
+                          <div className="flex items-center gap-2">
+                            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                            Processing...
+                          </div>
+                        ) : (
+                          "💾 Save Payment"
+                        )}
+                      </Button>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        onClick={() => {
+                          reset();
+                          setSelectedUser(null);
+                          clearSearch();
+                        }}
+                        disabled={loading}
+                        className="flex-1 sm:flex-none sm:w-32"
+                      >
+                        Reset Form
+                      </Button>
                     </div>
-                  </div>
-
-                  {/* Submit Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                    <Button
-                      onClick={handleSubmit(onSubmit)}
-                      disabled={loading || !selectedUser}
-                      className="flex-1 bg-green-600 hover:bg-green-700"
-                    >
-                      {loading ? (
-                        <div className="flex items-center gap-2">
-                          <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                          Processing...
-                        </div>
-                      ) : (
-                        "💾 Save Payment"
-                      )}
-                    </Button>
-                    <Button
-                      variant="outline"
-                      onClick={() => {
-                        reset();
-                        setSelectedUser(null);
-                        clearSearch();
-                      }}
-                      disabled={loading}
-                      className="flex-1 sm:flex-none sm:w-32"
-                    >
-                      Reset Form
-                    </Button>
-                  </div>
-
-                  {/* Success/Error Messages */}
-                  {success && (
-                    <Alert className="border-green-200 bg-green-50">
-                      <AlertDescription className="text-green-800">
-                        {success}
-                      </AlertDescription>
-                    </Alert>
-                  )}
-                  {error && (
-                    <Alert className="border-red-200 bg-red-50">
-                      <AlertDescription className="text-red-800">
-                        ❌ {error}
-                      </AlertDescription>
-                    </Alert>
-                  )}
-                </div>
+                  </fieldset>
+                </form>
               </CardContent>
             </Card>
           </div>

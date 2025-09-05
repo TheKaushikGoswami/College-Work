@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
+import toast from "react-hot-toast";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
@@ -29,7 +29,6 @@ export default function LoginPage() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    setError(null);
 
     const { error } = await supabase.auth.signInWithPassword({
       email,
@@ -37,8 +36,9 @@ export default function LoginPage() {
     });
 
     if (error) {
-      setError(error.message);
+      toast.error(error.message);
     } else {
+      toast.success("Login successful!");
       router.push("/");
     }
   };
@@ -74,8 +74,6 @@ export default function LoginPage() {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-
-          {error && <p className="text-red-600 text-sm">{error}</p>}
 
           <button
             type="submit"

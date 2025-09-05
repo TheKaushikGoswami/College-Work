@@ -10,33 +10,36 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { supabase } from "../../../lib/supabaseClient";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import toast from "react-hot-toast";
 
 const userSchema = z.object({
   full_name: z.string().min(3, "Full name is required"),
-  dob: z.string().optional(),
+  dob: z.string().min(1, "Date of birth is required"),
   gender: z.enum(["Male", "Female", "Other"]),
-  nationality: z.string().optional(),
-  address: z.string().optional(),
-  city: z.string().optional(),
-  state: z.string().optional(),
-  pin_code: z.string().optional(),
-  country: z.string().optional(),
+  nationality: z.string().min(1, "Nationality is required"),
+  address: z.string().min(1, "Address is required"),
+  city: z.string().min(1, "City is required"),
+  state: z.string().min(1, "State is required"),
+  pin_code: z.string().min(1, "Pin code is required"),
+  country: z.string().min(1, "Country is required"),
   mobile_number: z.string().min(10, "Mobile number is required"),
-  alternate_number: z.string().optional(),
-  email: z.string().email("Invalid email").optional(),
+  alternate_number: z.string(),
+  email: z.string().email("Invalid email"),
   membership_type: z.enum(["Silver", "Gold", "Platinum", "Corporate"]),
   membership_number: z.string().min(3, "Membership number is required"),
+  anniversary_date: z.string().optional().refine(
+    (val) => !val || /^\d{2}-\d{2}$/.test(val), {
+      message: "Date must be in MM-DD format",
+    }
+  ),
 });
 
 export default function RegisterUserPage() {
   const [loading, setLoading] = useState(false);
-  const [success, setSuccess] = useState(null);
-  const [error, setError] = useState(null);
 
   const {
     register,
@@ -82,8 +85,7 @@ export default function RegisterUserPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    setError(null);
-    setSuccess(null);
+    const toastId = toast.loading('Registering user...');
 
     try {
       const { error } = await supabase.from("users").insert([
@@ -102,15 +104,24 @@ export default function RegisterUserPage() {
           email: data.email || null,
           membership_type: data.membership_type,
           membership_number: data.membership_number,
+          anniversary_date: data.anniversary_date || null,
         },
       ]);
 
       if (error) throw error;
 
-      setSuccess("User registered successfully!");
+      toast.success("User registered successfully!", { id: toastId });
       reset();
     } catch (err) {
-      setError(err.message || "Something went wrong");
+      if (err.message && err.message.includes('users_mobile_number_key')) {
+        toast.error("A user with this mobile number already exists.", { id: toastId });
+      } 
+      else if (err.message && err.message.includes('users_email_key')) {
+        toast.error("A user with this email already exists.", { id: toastId });
+      }
+      else {
+        toast.error(err.message || "Something went wrong", { id: toastId });
+      }
     } finally {
       setLoading(false);
     }
@@ -165,7 +176,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="dob">Date of Birth</Label>
+                    <Label htmlFor="dob">Date of Birth *</Label>
                     <Input
                       id="dob"
                       type="date"
@@ -198,6 +209,18 @@ export default function RegisterUserPage() {
                       {...register("nationality")}
                     />
                   </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="anniversary_date">Anniversary Date (MM-DD)</Label>
+                    <Input
+                      id="anniversary_date"
+                      placeholder="MM-DD"
+                      {...register("anniversary_date")}
+                      className={errors.anniversary_date ? "border-red-500" : ""}
+                    />
+                    {errors.anniversary_date && (
+                      <p className="text-sm text-red-500">{errors.anniversary_date.message}</p>
+                    )}
+                  </div>
                 </div>
               </div>
 
@@ -210,7 +233,7 @@ export default function RegisterUserPage() {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2 md:col-span-2">
-                    <Label htmlFor="address">Address</Label>
+                    <Label htmlFor="address">Address *</Label>
                     <Input
                       id="address"
                       placeholder="Enter full address"
@@ -219,7 +242,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="city">City</Label>
+                    <Label htmlFor="city">City *</Label>
                     <Input
                       id="city"
                       placeholder="Enter city"
@@ -228,7 +251,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="state">State</Label>
+                    <Label htmlFor="state">State *</Label>
                     <Input
                       id="state"
                       placeholder="Enter state"
@@ -237,7 +260,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="pin_code">Pin Code</Label>
+                    <Label htmlFor="pin_code">Pin Code *</Label>
                     <Input
                       id="pin_code"
                       placeholder="Enter pin code"
@@ -246,7 +269,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="country">Country</Label>
+                    <Label htmlFor="country">Country *</Label>
                     <Input
                       id="country"
                       placeholder="Enter country"
@@ -287,7 +310,7 @@ export default function RegisterUserPage() {
                   </div>
 
                   <div className="space-y-2 md:col-span-2">
-                    <Label htmlFor="email">Email Address</Label>
+                    <Label htmlFor="email">Email Address *</Label>
                     <Input
                       id="email"
                       type="email"
@@ -378,22 +401,6 @@ export default function RegisterUserPage() {
                   Reset Form
                 </Button>
               </div>
-
-              {/* Success/Error Messages */}
-              {success && (
-                <Alert className="border-green-200 bg-green-50">
-                  <AlertDescription className="text-green-800">
-                    ✅ {success}
-                  </AlertDescription>
-                </Alert>
-              )}
-              {error && (
-                <Alert className="border-red-200 bg-red-50">
-                  <AlertDescription className="text-red-800">
-                    ❌ {error}
-                  </AlertDescription>
-                </Alert>
-              )}
             </form>
           </CardContent>
         </Card>
